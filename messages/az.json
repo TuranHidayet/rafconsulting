@@ -1,0 +1,278 @@
+{
+  "nav": {
+    "home": "Ana Səhifə",
+    "services": "Xidmətlər",
+    "about": "Haqqımızda",
+    "blog": "Bloq",
+    "contact": "Əlaqə",
+    "cta": "Konsultasiya Sifariş Edin",
+    "toggleMenu": "Menyunu aç/bağla"
+  },
+  "hero": {
+    "title": "RAF CONSULTING SERVICES",
+    "subtitle": "Etibarlı Mühasibat və Maliyyə Tərəfdaşınız",
+    "description": "Peşəkar Mühasibat, Maliyyə Məsləhət, IFRS Hesabatı və Biznes Konsultinq Xidmətləri.",
+    "cta": "Konsultasiya Sifariş Edin"
+  },
+  "services": {
+    "title": "Xidmətlərimiz",
+    "items": [
+      {
+        "title": "Mühasibat Xidmətləri",
+        "desc": "Bookkeeping, maliyyə hesabatları, management reporting və payroll dəstək"
+      },
+      {
+        "title": "Vergi Məsləhəti",
+        "desc": "Vergi uyğunluğu, vergi planlaması və vergi risklərinin qiymətləndirilməsi"
+      },
+      {
+        "title": "Maliyyə Konsultinqi",
+        "desc": "Büdcə və planlama, pul axını idarəçiliyi, maliyyə analizi və KPI hazırlanması"
+      },
+      {
+        "title": "IFRS Xidmətləri",
+        "desc": "IFRS hesabatları, maliyyə hesabatlarının nəzərdən keçirilməsi və IFRS tətbiqi dəstəyi"
+      },
+      {
+        "title": "Outsourced CFO",
+        "desc": "Strateji maliyyə planlaması, maliyyə performans monitorinqi, investor və bank hesabatları"
+      },
+      {
+        "title": "Bank & Hesabat",
+        "desc": "Bank kreditləri üçün maliyyə sənədləri, investor təqdimatları və due diligence dəstək"
+      }
+    ]
+  },
+  "whyRaf": {
+    "title": "Niyə RAF?",
+    "items": [
+      {
+        "title": "Professional Ekspertiza",
+        "desc": "İllərin təcrübəsi mühasibat, maliyyə, hesabat və biznes məsləhət xidmətlərində"
+      },
+      {
+        "title": "Fərdi Həllər",
+        "desc": "Biznesinizin ehtiyaclarına uyğun hazırlanmış maliyyə həlləri"
+      },
+      {
+        "title": "Etibarlı Tərəfdaşlıq",
+        "desc": "Etibar, dəqiqlik və peşəkarlıq əsasında uzunmüddətli münasibətlər qururuq"
+      },
+      {
+        "title": "Beynəlxalq Standartlar",
+        "desc": "IFRS hesabatı, maliyyə analizi və uyğunluq tələblərində dəstək"
+      },
+      {
+        "title": "Şəffaf Kommunikasiya",
+        "desc": "Açıq və anlaşıqlı maliyyə məlumatlandırması"
+      },
+      {
+        "title": "Nəticə Yönümlü Yanaşma",
+        "desc": "Real nəticələrə və ölçülə bilən uğurlara fokuslanma"
+      }
+    ]
+  },
+  "packages": {
+    "title": "Xidmət Paketləri",
+    "mostPopular": "Ən Populyar",
+    "idealFor": "Uyğundur",
+    "start": {
+      "name": "START",
+      "target": "Yeni yaradılmış şirkətlər üçün",
+      "desc": "Mühasibat uçotunun təşkili, vergi hesabatları, əmək haqqı və e-qaimə dəstəyi",
+      "features": [
+        "Mühasibat uçotunun təşkili",
+        "Vergi hesabatlarının hazırlanması",
+        "Əmək haqqı hesablanması",
+        "E-qaimə və müqavilə dəstəyi",
+        "Aylıq maliyyə nəticələri"
+      ],
+      "targets": ["Startaplar", "Mikro bizneslər", "Yeni MMC-lər"]
+    },
+    "grow": {
+      "name": "GROW",
+      "target": "İnkişaf edən bizneslər üçün",
+      "desc": "START paketinə əlavə olaraq management report, cash flow, büdcə və vergi risk analizi",
+      "features": [
+        "START paketindəki bütün xidmətlər",
+        "Aylıq Management Report",
+        "Cash Flow hazırlanması",
+        "Büdcə və planlama",
+        "Debitor və kreditor nəzarəti",
+        "Vergi risklərinin qiymətləndirilməsi",
+        "Bank və investor hesabatları"
+      ],
+      "targets": ["Dövriyyəsi artan şirkətlər", "Otellər", "Ticarət müəssisələri"]
+    },
+    "pro": {
+      "name": "PRO",
+      "target": "Orta və iri müəssisələr üçün",
+      "desc": "GROW paketinə əlavə olaraq IFRS hesabatları, maliyyə modelləşdirmə, KPI və CFO məsləhətçiliyi",
+      "features": [
+        "GROW paketindəki bütün xidmətlər",
+        "IFRS hesabatları",
+        "Maliyyə modelləşdirilməsi",
+        "KPI sistemi qurulması",
+        "Daxili nəzarət prosedurları",
+        "Audit hazırlığı",
+        "Bank kreditləri üçün sənədlər",
+        "CFO məsləhətçiliyi"
+      ],
+      "targets": ["Holdinqlər", "Xarici investorlu şirkətlər", "Audit müəssisələri"]
+    }
+  },
+  "specialServices": {
+    "title": "Xüsusi Xidmətlər",
+    "items": [
+      {
+        "title": "IFRS Reporting",
+        "desc": "IFRS Financial Statements, Consolidation, IFRS Conversion, Disclosure Notes"
+      },
+      {
+        "title": "Finance Department Setup",
+        "desc": "Chart of Accounts, Accounting Policies, Internal Controls, Reporting Templates"
+      },
+      {
+        "title": "Due Diligence Support",
+        "desc": "Maliyyə analizləri, investor təqdimatları, şirkət qiymətləndirmə dəstəyi"
+      }
+    ]
+  },
+  "founder": {
+    "name": "Rufat Sadıqov",
+    "title": "Founder & Managing Partner",
+    "desc": "Accounting and Finance Professional with experience in Financial Management, IFRS Reporting, Budgeting & Forecasting, Cash Flow Management, Internal Controls and Business Advisory.",
+    "certificates": "Sertifikatlar və iş təcrübəsi sonradan əlavə ediləcək.",
+    "experience": [
+      "Financial Management",
+      "IFRS Reporting",
+      "Budgeting & Forecasting",
+      "Cash Flow Management",
+      "Internal Controls",
+      "Business Advisory"
+    ]
+  },
+  "contact": {
+    "title": "Əlaqə",
+    "desc": "Biznesinizin inkişafına necə dəstək ola biləcəyimizi müzakirə edək.",
+    "form": {
+      "name": "Adınız",
+      "email": "Email",
+      "phone": "Telefon",
+      "message": "Mesajınız",
+      "submit": "Göndər",
+      "success": "Mesajınız göndərildi!",
+      "sending": "Göndərilir...",
+      "thankYou": "Təşəkkür edirik!"
+    },
+    "info": {
+      "email": "info@rafconsulting.az",
+      "phone": "+994105120009",
+      "website": "www.rafconsulting.az"
+    }
+  },
+  "footer": {
+    "description": "Peşəkar mühasibat, maliyyə konsultinq, IFRS hesabatı və biznes məsləhət xidmətləri.",
+    "rights": "Bütün hüquqlar qorunur",
+    "slogan": "Etibarlı Rəqəmlər. Daha Yaxşı Qərarlar.",
+    "tagline": "Etibarlı Mühasibat və Maliyyə Tərəfdaşınız",
+    "quickLinks": "Keçidlər",
+    "contactUs": "Əlaqə",
+    "address": "Bakı, Azərbaycan",
+    "privacy": "Məxfilik Siyasəti",
+    "terms": "Xidmət Şərtləri"
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "mission": "RAF Consulting Services müstəqil mühasibat və maliyyə məsləhət şirkətidir. Bizneslərin maliyyə performansını yaxşılaşdırmaq, daxili nəzarəti gücləndirmək və tənzimləmə tələblərinə uyğunluğu təmin etmək məqsədilə fəaliyyət göstəririk.",
+    "missionTitle": "Missiyamız",
+    "missionDesc": "Şirkətlər üçün etibarlı və praktik maliyyə həlləri təqdim edən etibarlı tərəfdaş olmaq.",
+    "visionTitle": "Vizyonumuz",
+    "visionDesc": "Azərbaycanda peşəkar mühasibat və maliyyə konsultinqi sahəsində ən etibarlı brend olmaq."
+  },
+  "common": {
+    "whatWeDo": "Xidmətlərimiz",
+    "whyChooseUs": "Niyə RAF?",
+    "pricing": "Qiymətlər",
+    "getInTouch": "Əlaqə",
+    "ourExpertise": "Ekspertizamız",
+    "whoWeAre": "Biz Kimik",
+    "meetFounder": "Təsisçimiz",
+    "insights": "Məqalələr",
+    "readyToStart": "Başlamağa Hazırsınız?",
+    "letsWork": "Birlikdə İşləyək",
+    "scheduleCTA": "Konsultasiya Sifariş Edin",
+    "getInTouchCTA": "Əlaqə Saxlayın",
+    "sendMessage": "Bizə Mesaj Göndərin",
+    "sendMessageBtn": "Mesaj Göndər",
+    "viewAllServices": "Bütün Xidmətlər",
+    "exploreServices": "Xidmətləri Araşdır"
+  },
+  "blog": {
+    "title": "Bloq",
+    "readMore": "Davamını oxu",
+    "noPosts": "Hələ bloq yazısı yoxdur",
+    "backToBlog": "Bloqa Qayıt",
+    "allArticles": "Bütün Məqalələr",
+    "insightsDesc": "Mühasibat və maliyyə sahəsində ekspert məsləhətləri, məqalələr və bələdçilər."
+  },
+  "servicesPage": {
+    "desc": "Biznesinizin ehtiyaclarına uyğun hazırlanmış kompleks mühasibat, vergi, maliyyə konsultinqi və IFRS xidmətləri.",
+    "servicesLabel": "Xidmətlər",
+    "benefitsLabel": "Faydalar",
+    "feat1": "Bookkeeping",
+    "feat2": "Maliyyə Hesabatları",
+    "feat3": "Management Reporting",
+    "feat4": "Payroll Dəstək",
+    "feat5": "Vergi Uyğunluğu",
+    "feat6": "Vergi Planlaması",
+    "feat7": "Vergi Risk Qiymətləndirməsi",
+    "feat8": "Büdcə və Planlama",
+    "feat9": "Pul Axını İdarəçiliyi",
+    "feat10": "Maliyyə Analizi",
+    "feat11": "KPI Hazırlanması",
+    "feat12": "IFRS Hesabatları",
+    "feat13": "Maliyyə Hesabatı Nəzərdən Keçirmə",
+    "feat14": "IFRS Tətbiqi Dəstək",
+    "feat15": "Strateji Maliyyə Planlaması",
+    "feat16": "Maliyyə Performans Monitorinqi",
+    "feat17": "İnvestor və Bank Hesabatları",
+    "feat18": "Due Diligence Dəstək",
+    "feat19": "İnvestor Təqdimatları",
+    "feat20": "Şirkət Qiymətləndirmə",
+    "benefit1": "Dəqiq maliyyə uçotu",
+    "benefit2": "Vaxtında hesabat",
+    "benefit3": "Effektiv əməliyyatlar",
+    "benefit4": "Minimallaşdırılmış vergi riskləri",
+    "benefit5": "Optimallaşdırılmış vergi mövqeyi",
+    "benefit6": "Tam qanuni uyğunluq",
+    "benefit7": "Daha yaxşı maliyyə nəzarəti",
+    "benefit8": "Məlumat əsaslı qərarlar",
+    "benefit9": "Təkmilləşdirilmiş gəlirlilik",
+    "benefit10": "Beynəlxalq standartlar",
+    "benefit11": "İnvestor etibarı",
+    "benefit12": "Qlobal uyğunluq",
+    "benefit13": "Strateji inkişaf",
+    "benefit14": "Ekspert maliyyə rəhbərliyi",
+    "benefit15": "Maraqlı tərəf etibarı",
+    "benefit16": "Rəvan əməliyyatlar",
+    "benefit17": "Peşəkar sənədləşmə",
+    "benefit18": "Məlumatlı qərarlar"
+  },
+  "aboutPage": {
+    "desc": "Konsultasiya Sifariş Edin"
+  },
+  "contactPage": {
+    "sendMessage": "Bizə Mesaj Göndərin",
+    "email": "Email",
+    "phone": "Telefon",
+    "website": "Veb Sayt",
+    "linkedin": "LinkedIn"
+  },
+  "theme": {
+    "light": "Açıq",
+    "dark": "Tünd",
+    "system": "Sistem",
+    "currentTheme": "Cari tema:"
+  }
+}

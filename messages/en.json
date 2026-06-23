@@ -1,0 +1,278 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Book a Consultation",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "title": "RAF CONSULTING SERVICES",
+    "subtitle": "Your Reliable Accounting and Finance Partner",
+    "description": "Professional Accounting, Financial Advisory, IFRS Reporting and Business Consulting Services.",
+    "cta": "Book a Consultation"
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "title": "Accounting Services",
+        "desc": "Bookkeeping, financial statements, management reporting and payroll support"
+      },
+      {
+        "title": "Tax Advisory",
+        "desc": "Tax compliance, tax planning and tax risk assessment"
+      },
+      {
+        "title": "Financial Consulting",
+        "desc": "Budgeting and forecasting, cash flow management, financial analysis and KPI development"
+      },
+      {
+        "title": "IFRS Services",
+        "desc": "IFRS reporting, financial statement review and IFRS implementation support"
+      },
+      {
+        "title": "Outsourced CFO",
+        "desc": "Strategic financial planning, financial performance monitoring, investor and bank reporting"
+      },
+      {
+        "title": "Bank & Reporting",
+        "desc": "Financial documents for bank loans, investor presentations and due diligence support"
+      }
+    ]
+  },
+  "whyRaf": {
+    "title": "Why RAF?",
+    "items": [
+      {
+        "title": "Professional Expertise",
+        "desc": "Years of experience in accounting, finance, reporting and business advisory services"
+      },
+      {
+        "title": "Tailored Solutions",
+        "desc": "Customized financial solutions designed to meet your business needs"
+      },
+      {
+        "title": "Reliable Partnership",
+        "desc": "We build long-term relationships based on trust, accuracy and professionalism"
+      },
+      {
+        "title": "International Standards",
+        "desc": "Support in IFRS reporting, financial analysis and compliance requirements"
+      },
+      {
+        "title": "Transparent Communication",
+        "desc": "Clear and understandable financial reporting"
+      },
+      {
+        "title": "Result-Oriented Approach",
+        "desc": "Focus on real results and measurable success"
+      }
+    ]
+  },
+  "packages": {
+    "title": "Service Packages",
+    "mostPopular": "Most Popular",
+    "idealFor": "Ideal For",
+    "start": {
+      "name": "START",
+      "target": "For newly established companies",
+      "desc": "Accounting setup, tax reports, payroll and e-invoice support",
+      "features": [
+        "Accounting setup",
+        "Tax report preparation",
+        "Payroll calculation",
+        "E-invoice and contract support",
+        "Monthly financial results"
+      ],
+      "targets": ["Startups", "Micro businesses", "New LLCs"]
+    },
+    "grow": {
+      "name": "GROW",
+      "target": "For growing businesses",
+      "desc": "START plus management reports, cash flow, budgeting and tax risk analysis",
+      "features": [
+        "All START package services",
+        "Monthly Management Report",
+        "Cash Flow preparation",
+        "Budgeting and planning",
+        "Accounts receivable/payable control",
+        "Tax risk assessment",
+        "Bank and investor reports"
+      ],
+      "targets": ["Growing companies", "Hotels", "Trading enterprises"]
+    },
+    "pro": {
+      "name": "PRO",
+      "target": "For medium and large enterprises",
+      "desc": "GROW plus IFRS reports, financial modeling, KPI and CFO advisory",
+      "features": [
+        "All GROW package services",
+        "IFRS reports",
+        "Financial modeling",
+        "KPI system setup",
+        "Internal control procedures",
+        "Audit preparation",
+        "Bank loan documentation",
+        "CFO advisory"
+      ],
+      "targets": ["Holdings", "Companies with foreign investors", "Audit enterprises"]
+    }
+  },
+  "specialServices": {
+    "title": "Special Services",
+    "items": [
+      {
+        "title": "IFRS Reporting",
+        "desc": "IFRS Financial Statements, Consolidation, IFRS Conversion, Disclosure Notes"
+      },
+      {
+        "title": "Finance Department Setup",
+        "desc": "Chart of Accounts, Accounting Policies, Internal Controls, Reporting Templates"
+      },
+      {
+        "title": "Due Diligence Support",
+        "desc": "Financial analysis, investor presentations, company valuation support"
+      }
+    ]
+  },
+  "founder": {
+    "name": "Rufat Sadigov",
+    "title": "Founder & Managing Partner",
+    "desc": "Accounting and Finance Professional with experience in Financial Management, IFRS Reporting, Budgeting & Forecasting, Cash Flow Management, Internal Controls and Business Advisory.",
+    "certificates": "Certificates and work experience will be added later.",
+    "experience": [
+      "Financial Management",
+      "IFRS Reporting",
+      "Budgeting & Forecasting",
+      "Cash Flow Management",
+      "Internal Controls",
+      "Business Advisory"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "desc": "Let's discuss how we can support your business growth.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Your Message",
+      "submit": "Send",
+      "success": "Your message has been sent!",
+      "sending": "Sending...",
+      "thankYou": "Thank You!"
+    },
+    "info": {
+      "email": "info@rafconsulting.az",
+      "phone": "+994105120009",
+      "website": "www.rafconsulting.az"
+    }
+  },
+  "footer": {
+    "description": "Professional accounting, financial consulting, IFRS reporting and business advisory services.",
+    "rights": "All rights reserved",
+    "slogan": "Reliable Numbers. Better Decisions.",
+    "tagline": "Your Reliable Accounting and Finance Partner",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact",
+    "address": "Baku, Azerbaijan",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "about": {
+    "title": "About Us",
+    "mission": "RAF Consulting Services is an independent accounting and finance advisory firm helping businesses improve financial performance, strengthen internal controls, and ensure compliance with regulatory requirements.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To become a trusted partner for companies seeking reliable and practical financial solutions.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To be the most trusted brand in professional accounting and financial consulting in Azerbaijan."
+  },
+  "common": {
+    "whatWeDo": "What We Do",
+    "whyChooseUs": "Why Choose Us",
+    "pricing": "Pricing",
+    "getInTouch": "Get In Touch",
+    "ourExpertise": "Our Expertise",
+    "whoWeAre": "Who We Are",
+    "meetFounder": "Meet Our Founder",
+    "insights": "Insights",
+    "readyToStart": "Ready to Get Started?",
+    "letsWork": "Let's Work Together",
+    "scheduleCTA": "Schedule a Consultation",
+    "getInTouchCTA": "Get in Touch",
+    "sendMessage": "Send Us a Message",
+    "sendMessageBtn": "Send Message",
+    "viewAllServices": "View All Services",
+    "exploreServices": "Explore Services"
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Read More",
+    "noPosts": "No blog posts yet",
+    "backToBlog": "Back to Blog",
+    "allArticles": "All Articles",
+    "insightsDesc": "Expert insights, tips and guides on accounting, finance and business management."
+  },
+  "servicesPage": {
+    "desc": "Comprehensive accounting, tax, financial consulting and IFRS services tailored to your business needs.",
+    "servicesLabel": "Services",
+    "benefitsLabel": "Benefits",
+    "feat1": "Bookkeeping",
+    "feat2": "Financial Statements Preparation",
+    "feat3": "Management Reporting",
+    "feat4": "Payroll Support",
+    "feat5": "Tax Compliance",
+    "feat6": "Tax Planning",
+    "feat7": "Tax Risk Assessment",
+    "feat8": "Budgeting and Forecasting",
+    "feat9": "Cash Flow Management",
+    "feat10": "Financial Analysis",
+    "feat11": "KPI Development",
+    "feat12": "IFRS Reporting",
+    "feat13": "Financial Statement Review",
+    "feat14": "IFRS Implementation Support",
+    "feat15": "Strategic Financial Planning",
+    "feat16": "Financial Performance Monitoring",
+    "feat17": "Investor & Bank Reporting",
+    "feat18": "Due Diligence Support",
+    "feat19": "Investor Presentations",
+    "feat20": "Company Valuation",
+    "benefit1": "Accurate financial records",
+    "benefit2": "Timely reporting",
+    "benefit3": "Cost-efficient operations",
+    "benefit4": "Minimized tax risks",
+    "benefit5": "Optimized tax position",
+    "benefit6": "Full regulatory compliance",
+    "benefit7": "Better financial control",
+    "benefit8": "Data-driven decisions",
+    "benefit9": "Improved profitability",
+    "benefit10": "International standards",
+    "benefit11": "Investor confidence",
+    "benefit12": "Global compliance",
+    "benefit13": "Strategic growth",
+    "benefit14": "Expert financial guidance",
+    "benefit15": "Stakeholder trust",
+    "benefit16": "Smooth transactions",
+    "benefit17": "Professional documentation",
+    "benefit18": "Informed decisions"
+  },
+  "aboutPage": {
+    "desc": "Get in Touch"
+  },
+  "contactPage": {
+    "sendMessage": "Send Us a Message",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "linkedin": "LinkedIn"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "currentTheme": "Current theme:"
+  }
+}
