@@ -1,6 +1,9 @@
 import { getTranslations } from 'next-intl/server'
 import Button from '@/components/Button'
 import AnimatedBackground from '@/components/AnimatedBackground'
+import { AccountingIcon, TaxIcon, FinancialIcon, IfrsIcon, CfoIcon, BankIcon } from '@/components/ServiceIcons'
+
+const icons = [AccountingIcon, TaxIcon, FinancialIcon, IfrsIcon, CfoIcon, BankIcon]
 
 export default async function ServicesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
@@ -29,15 +32,17 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
       <section className="section-padding bg-surface-alt dark:bg-dark-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-8">
-            {items.map((item: { title: string; desc: string }, i: number) => (
+            {items.map((item: { title: string; desc: string }, i: number) => {
+              const Icon = icons[i] || icons[0]
+              return (
               <div
                 key={i}
                 className="bg-white dark:bg-dark-card rounded-2xl p-8 border border-border dark:border-dark-border"
               >
                 <div className="flex flex-col lg:flex-row gap-8">
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 rounded-2xl bg-gold/10 flex items-center justify-center text-3xl">
-                      {['📊', '💰', '📈', '📑', '🎯', '🏦'][i] || '📋'}
+                    <div className="w-16 h-16 rounded-2xl bg-gold/10 flex items-center justify-center">
+                      <Icon className="w-9 h-9 text-gold" />
                     </div>
                   </div>
                   <div className="flex-1">
@@ -88,7 +93,8 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
                   </div>
                 </div>
               </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>

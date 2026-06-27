@@ -1,14 +1,8 @@
 import { getTranslations } from 'next-intl/server'
 import Link from 'next/link'
+import { AccountingIcon, TaxIcon, FinancialIcon, IfrsIcon, CfoIcon, BankIcon } from './ServiceIcons'
 
-const iconMap: Record<string, string> = {
-  accounting: '📊',
-  tax: '💰',
-  financial: '📈',
-  ifrs: '📑',
-  cfo: '🎯',
-  bank: '🏦',
-}
+const icons = [AccountingIcon, TaxIcon, FinancialIcon, IfrsIcon, CfoIcon, BankIcon]
 
 export default async function ServicesSection({ locale }: { locale: string }) {
   const t = await getTranslations({ locale })
@@ -27,25 +21,28 @@ export default async function ServicesSection({ locale }: { locale: string }) {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {items.map((item: { title: string; desc: string }, i: number) => (
-            <div
-              key={i}
-              className="group relative bg-white dark:bg-dark-card rounded-2xl p-6 border border-border dark:border-dark-border card-hover"
-            >
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-gold/0 to-gold/[0.02] opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="relative">
-                <div className="w-12 h-12 rounded-xl bg-gold/10 dark:bg-gold/20 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform">
-                  {iconMap[Object.keys(iconMap)[i]] || '📋'}
+          {items.map((item: { title: string; desc: string }, i: number) => {
+            const Icon = icons[i] || icons[0]
+            return (
+              <div
+                key={i}
+                className="group relative bg-white dark:bg-dark-card rounded-2xl p-6 border border-border dark:border-dark-border card-hover"
+              >
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-gold/0 to-gold/[0.02] opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="relative">
+                  <div className="w-12 h-12 rounded-xl bg-gold/10 dark:bg-gold/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                    <Icon className="w-7 h-7 text-gold" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-navy dark:text-white mb-2 group-hover:text-gold transition-colors">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-text-secondary dark:text-dark-text-secondary leading-relaxed">
+                    {item.desc}
+                  </p>
                 </div>
-                <h3 className="text-lg font-semibold text-navy dark:text-white mb-2 group-hover:text-gold transition-colors">
-                  {item.title}
-                </h3>
-                <p className="text-sm text-text-secondary dark:text-dark-text-secondary leading-relaxed">
-                  {item.desc}
-                </p>
               </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
 
         <div className="text-center mt-12">
