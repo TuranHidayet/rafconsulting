@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'RAF Consulting Services | Your Reliable Accounting and Finance Partner',
   description:
     'Professional accounting, financial consulting, IFRS reporting and business advisory services in Azerbaijan.',
-  icons: 'raf_favicon.svg',
+  icons: [{ rel: 'icon', url: '/raf_favicon.svg', type: 'image/svg+xml' }],
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
