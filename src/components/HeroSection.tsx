@@ -1,11 +1,13 @@
 import { getTranslations } from 'next-intl/server'
 import Button from './Button'
+import AnimatedBackground from './AnimatedBackground'
 
 export default async function HeroSection({ locale }: { locale: string }) {
   const t = await getTranslations({ locale })
 
   return (
     <section className="gradient-bg relative overflow-hidden min-h-[85vh] flex items-center">
+      <AnimatedBackground variant="services" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,162,39,0.1)_0%,_transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(15,45,82,0.4)_0%,_transparent_50%)]" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative py-20">

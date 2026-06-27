@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server'
 import Link from 'next/link'
 import { getBlogPosts } from '@/lib/blog'
+import AnimatedBackground from '@/components/AnimatedBackground'
 
 export default async function BlogPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
@@ -10,6 +11,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
   return (
     <>
       <section className="gradient-bg relative overflow-hidden py-24 sm:py-32">
+        <AnimatedBackground variant="insights" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(201,162,39,0.08)_0%,_transparent_50%)]" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-2xl">

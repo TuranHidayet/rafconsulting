@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server'
 import ContactForm from '@/components/ContactForm'
+import AnimatedBackground from '@/components/AnimatedBackground'
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
@@ -10,6 +11,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   return (
     <>
       <section className="gradient-bg relative overflow-hidden py-24 sm:py-32">
+        <AnimatedBackground variant="contact" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_rgba(201,162,39,0.08)_0%,_transparent_50%)]" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-2xl">

@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getTranslations } from 'next-intl/server'
 import { getBlogPost, getAllSlugs } from '@/lib/blog'
+import AnimatedBackground from '@/components/AnimatedBackground'
 
 export function generateStaticParams({ params }: { params: { locale: string } }) {
   return getAllSlugs(params.locale).map((slug) => ({ slug }))
@@ -17,6 +18,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
   return (
     <>
       <section className="gradient-bg relative overflow-hidden py-24 sm:py-32">
+        <AnimatedBackground variant="insights" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <Link
             href="/blog"
