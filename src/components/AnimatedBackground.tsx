@@ -19,7 +19,7 @@ const images: Record<string, string> = {
   contact: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1600&q=80',
   insights: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1600&q=80',
   services: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1600&q=80',
-  about: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&q=80',
+  about: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600&q=80',
   default: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80',
 }
 
