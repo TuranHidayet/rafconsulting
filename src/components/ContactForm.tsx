@@ -1,20 +1,42 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { useTranslations } from 'next-intl'
+
+const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID || ''
 
 export default function ContactForm() {
   const t = useTranslations('contact.form')
+  const formRef = useRef<HTMLFormElement>(null)
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setLoading(true)
-    // Simulate form submission - connect to EmailJS/Formspree later
-    await new Promise((r) => setTimeout(r, 1000))
-    setLoading(false)
-    setSubmitted(true)
+    setError('')
+
+    if (!FORMSPREE_ID) {
+      setLoading(false)
+      setSubmitted(true)
+      return
+    }
+
+    try {
+      const formData = new FormData(e.currentTarget)
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: 'POST',
+        body: formData,
+        headers: { Accept: 'application/json' },
+      })
+      if (!res.ok) throw new Error('Formspree error')
+      setSubmitted(true)
+    } catch {
+      setError('Something went wrong. Please try again.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   if (submitted) {
@@ -32,7 +54,12 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-5">
+    <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
+      {error && (
+        <div className="p-3 rounded-xl bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 text-sm">
+          {error}
+        </div>
+      )}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
           <label className="block text-sm font-medium text-text-primary dark:text-dark-text mb-2">
@@ -40,6 +67,7 @@ export default function ContactForm() {
           </label>
           <input
             type="text"
+            name="name"
             required
             className="w-full px-4 py-3 rounded-xl border border-border dark:border-dark-border bg-white dark:bg-dark-card text-text-primary dark:text-dark-text placeholder:text-text-muted dark:placeholder:text-dark-text-muted focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold transition-all text-sm"
             placeholder={t('name')}
@@ -51,6 +79,7 @@ export default function ContactForm() {
           </label>
           <input
             type="email"
+            name="email"
             required
             className="w-full px-4 py-3 rounded-xl border border-border dark:border-dark-border bg-white dark:bg-dark-card text-text-primary dark:text-dark-text placeholder:text-text-muted dark:placeholder:text-dark-text-muted focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold transition-all text-sm"
             placeholder={t('email')}
@@ -63,6 +92,7 @@ export default function ContactForm() {
         </label>
         <input
           type="tel"
+          name="phone"
           className="w-full px-4 py-3 rounded-xl border border-border dark:border-dark-border bg-white dark:bg-dark-card text-text-primary dark:text-dark-text placeholder:text-text-muted dark:placeholder:text-dark-text-muted focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold transition-all text-sm"
           placeholder={t('phone')}
         />
@@ -72,6 +102,7 @@ export default function ContactForm() {
           {t('message')}
         </label>
         <textarea
+          name="message"
           required
           rows={5}
           className="w-full px-4 py-3 rounded-xl border border-border dark:border-dark-border bg-white dark:bg-dark-card text-text-primary dark:text-dark-text placeholder:text-text-muted dark:placeholder:text-dark-text-muted focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold transition-all text-sm resize-none"

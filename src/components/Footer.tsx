@@ -57,7 +57,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-white/50">
               <li className="flex items-center gap-3">
                 <span className="text-gold">✉</span>
-                info@rafconsulting.az
+                rsadigov@rafconsulting.az
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-gold">📞</span>
